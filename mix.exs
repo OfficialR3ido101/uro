@@ -33,7 +33,7 @@ defmodule Uro.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.5"},
+      {:phoenix, "~> 1.5.3"},
       {:phoenix_pubsub, "~> 2.0"},
       # Can't currently upgrade these, results in Postgrex error when attempting migration
       # source SQL: # LOCK TABLE \"schema_migrations\" IN SHARE UPDATE EXCLUSIVE MODE\n^"
@@ -51,7 +51,7 @@ defmodule Uro.MixProject do
       {:pow, "~> 1.0.23"},
       {:email_checker, "~> 0.1.4"},
       {:pow_assent, "~> 0.4.10"},
-      {:ssl_verify_fun, "~> 1.1.6"},
+      {:ssl_verify_fun, "~> 1.1.7"},
       {:phoenix_swagger, "~> 0.8.3"},
       {:ex_json_schema, "~> 0.7.4"},
       {:remote_ip, "~> 1.0"},
